@@ -1,0 +1,22 @@
+{
+	"name" : "fgsl/swoole",
+	"description" : "Classes to work with Swoole",
+	"type" : "component",
+	"keywords" : [
+		"swoole",
+		"laminas"
+	],
+	"homepage" : "https://github.com/fgsl/swoole",
+	"license" : "AGPL-3.0-only",
+	"autoload" : {
+		"psr-4" : {
+			"Fgsl\\Swoole\\" : "src"
+		}
+	},
+	"require" : {
+		"php" : ">=7.2"
+	},
+	"config" : {
+		"secure-http" : false
+	}
+}
